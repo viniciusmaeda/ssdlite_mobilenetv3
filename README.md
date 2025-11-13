@@ -7,29 +7,23 @@ It loads an input image or video, runs inference, and visualizes bounding boxes 
 
 ### 📁 Project Structure
 
-projetct/
-
+```bash
+project/
 │
-
 ├── input/ # Folder with input images/videos
-
 │   ├── image_1.jpg
-
 │   ├── image_2.jpg
-
 │   ├── video_1.mp4
-
 │   └── video_2.mp4
 ├── outputs/ # Folder for saving output images/videos
 │   ├── images_1_pred.jpg
 │   └── video_1_pred.mp4
-├── coco_names.py # COCO dataset class names
-├── detect_image.py # Main script to run detection on images
-├── detect_utils.py # Contains prediction and visualization functions
-├── detect_video.py # Script to run real-time or video detection
-├── model.py # Loads and prepares the SSD model
-└── README.md # Project documentation
-
+├── coco_names.py        # COCO dataset class names
+├── detect_image.py      # Main script to run detection on images
+├── detect_utils.py      # Contains prediction and visualization functions
+├── detect_video.py      # Script to run real-time or video detection
+├── model.py             # Loads and prepares the SSD model
+└── README.md            # Project documentation
 ---
 
 ### ⚙️ Requirements
