@@ -8,11 +8,17 @@ It loads an input image or video, runs inference, and visualizes bounding boxes 
 ### 📁 Project Structure
 
 projetct/
+
 │
+
 ├── input/ # Folder with input images/videos
+
 │   ├── image_1.jpg
+
 │   ├── image_2.jpg
+
 │   ├── video_1.mp4
+
 │   └── video_2.mp4
 ├── outputs/ # Folder for saving output images/videos
 │   ├── images_1_pred.jpg
