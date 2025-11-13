@@ -24,6 +24,8 @@ project/
 ├── detect_video.py      # Script to run real-time or video detection
 ├── model.py             # Loads and prepares the SSD model
 └── README.md            # Project documentation
+```
+
 ---
 
 ### ⚙️ Requirements
